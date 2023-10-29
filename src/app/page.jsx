@@ -26,7 +26,7 @@ export default function Home() {
                   src={linked}
                 ></Image>
               </a>
-              <a href="https://www.linkedin.com/in/markkunitski/">
+              <a href="https://github.com/markkunitski">
                 <Image
                   className="p-px"
                   width={31}
@@ -75,7 +75,7 @@ export default function Home() {
                 algorithms, data structures, and object-oriented programming.
               </span>{" "}
               My expertise extends to{" "}
-              <span className="focus">Berkeley's CS61A,</span> and I'm
+              <span className="focus">Berkeley's CS61A course,</span> and I'm
               well-versed in content management systems like{" "}
               <span className="focus">WordPress.</span>
             </p>
