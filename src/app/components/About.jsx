@@ -37,7 +37,7 @@ const About = () => {
                 dedicated to
                 <span className="focus"> creating websites</span> that are not
                 just visually appealing, but user-friendly too. I'm skilled in{" "}
-                <span className="focus">HTML, CSS, and responsive design,</span>
+                <span className="focus">HTML, CSS, and responsive design,</span>{" "}
                 and I love working with frameworks like{" "}
                 <span className="focus">Tailwind and Bootstrap</span> to ensure
                 every project is a great experience for users.
@@ -93,11 +93,11 @@ const About = () => {
               </p>
 
               <p>
-                I'm excited about collaborating on projects that require a
+                I'm excited about collaborating on projects that require a{" "}
                 <span className="focus">
                   holistic approach to web development,
                 </span>{" "}
-                where <span className="focus">design, functionality,</span>
+                where <span className="focus">design, functionality,</span>{" "}
                 and{" "}
                 <span className="focus">
                   performance seamlessly come together.

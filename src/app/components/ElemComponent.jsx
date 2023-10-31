@@ -14,10 +14,10 @@ function ElemComponent({ name, text }) {
       className="elem pb-6 mb-8 border-b border-black cursor-pointer"
     >
       <div className="shown flex justify-between items-center">
-        <h2 className="mb-2">{name}</h2>
+        <h2 className="">{name}</h2>
         <span className="text-2xl">{isHidden ? "+" : "-"}</span>
       </div>
-      <div className={isHidden ? "hidden" : ""}>{text}</div>
+      <div className={isHidden ? "hidden" : "pt-4"}>{text}</div>
     </div>
   );
 }

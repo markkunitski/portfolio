@@ -26,6 +26,8 @@ const Projects = () => {
               <div className="badge badge-outline">REST API</div>
               <div className="badge badge-outline">RTK Query</div>
               <div className="badge badge-outline">React Router Dom </div>
+              <div className="badge badge-outline">UI/UX</div>
+              <div className="badge badge-outline ">RWD</div>
               <p className="mb-6 mt-4">
                 This project centered on crafting efficient logic for displaying
                 booking information and login processes. Leveraging React and
@@ -55,6 +57,8 @@ const Projects = () => {
               <h5 className="mb-2 w-full">Just Escape Austria</h5>
               <div className="badge badge-outline ">WordPress</div>
               <div className="badge badge-outline ">Bootstrap</div>
+              <div className="badge badge-outline ">JavaScript</div>
+              <div className="badge badge-outline ">RWD</div>
               <div className="badge badge-outline ">UI/UX</div>
               <p className="mb-6 mt-4">
                 I had the exciting opportunity to collaborate with a small
@@ -91,6 +95,9 @@ const Projects = () => {
               <div className="badge badge-outline">TypeScript</div>
               <div className="badge badge-outline">REST API</div>
               <div className="badge badge-outline">LeafLet</div>
+              <div className="badge badge-outline">UI/UX</div>
+              <div className="badge badge-outline">Tailwind</div>
+              <div className="badge badge-outline ">RWD</div>
               <p className="mb-6 mt-4">
                 In "NODAUNT," I spearheaded the frontend development of an
                 innovative app, collaborating with a dedicated backend team.
@@ -108,7 +115,7 @@ const Projects = () => {
               <a
                 className=" inline-block"
                 target="_blank"
-                href="https://navigate-app-fqhr.vercel.app/"
+                href="https://navigate-app.vercel.app/"
               >
                 View the project &gt;
               </a>
@@ -124,7 +131,7 @@ const Projects = () => {
           ></Image>
           <div className="projects_text flex flex-col flex-1">
             <div className="flex flex-wrap">
-              <h5 className="mb-2 w-full w-full">React endgame</h5>
+              <h5 className="mb-2 w-full">React Training</h5>
               <div className="badge badge-outline ">React</div>
               <div className="badge badge-outline ">React Router Dom</div>
               <div className="badge badge-outline ">API</div>
@@ -155,17 +162,17 @@ const Projects = () => {
           <Image
             className="w-full h-auto rounded-xl grayscale z-10 relative"
             loading="lazy"
-            src={CQ}
+            src={tasks}
             alt="City Quest Dashboard"
           ></Image>
           <div className="projects_text flex flex-col flex-1">
-            <h5 className="mb-2 w-full">City Quest Dashboard</h5>
+            <h5 className="mb-2 w-full">Task Manager OOP</h5>
             <div className="flex flex-wrap mb-4">
-              <div className="badge badge-outline">React</div>
-              <div className="badge badge-outline">TypeScript</div>
-              <div className="badge badge-outline">REST API</div>
-              <div className="badge badge-outline">RTK Query</div>
-              <div className="badge badge-outline">React Router Dom </div>
+              <div className="badge badge-outline">JavaScript</div>
+              <div className="badge badge-outline">Tailwind</div>
+              <div className="badge badge-outline">API</div>
+              <div className="badge badge-outline">Cookies</div>
+              <div className="badge badge-outline">UI/UX</div>
             </div>
             <p className="mb-6">
               This project centered on crafting efficient logic for displaying
@@ -175,11 +182,12 @@ const Projects = () => {
               security and ease of user login. Explore how I made complex
               booking information and login procedures simple in this project.
             </p>
-            <div className="flex justify-end">
+            <div className="flex justify-between items-center">
+              <span className="text-xs">HTTP protocol :(</span>
               <a
                 className=" inline-block"
                 target="_blank"
-                href="https://www.justescape-austria.com/"
+                href="http://divs.online/"
               >
                 View the project &gt;
               </a>
@@ -190,28 +198,32 @@ const Projects = () => {
           <Image
             className="w-full h-auto rounded-xl grayscale z-10 relative"
             loading="lazy"
-            src={austria}
+            src={zeusky}
             alt="Just Escape Austria"
           ></Image>
           <div className="projects_text flex flex-col flex-1">
-            <h5 className="mb-2 w-full">Just Escape Austria</h5>
-            <div className="flex flex-wrap mb-4">
-              <div className="badge badge-outline ">WordPress</div>
-              <div className="badge badge-outline ">Bootstrap</div>
+            <div className="flex flex-wrap">
+              <h5 className="mb-2 w-full">Zeusky - IT company</h5>
+              <div className="badge badge-outline ">JavaScript</div>
+              <div className="badge badge-outline ">Tailwind</div>
+              <div className="badge badge-outline ">RWD</div>
+              <div className="badge badge-outline ">Logo design</div>
               <div className="badge badge-outline ">UI/UX</div>
+              <p className="mb-6 mt-4">
+                I had the exciting opportunity to collaborate with a small
+                escape room company, which also offered immersive City Quests.
+                In this project, I was responsible for a complete redesign,
+                focusing on enhancing the user experience (UI/UX). My work
+                included updating WordPress plugins to ensure a seamless and
+                engaging experience.
+              </p>
             </div>
-            <p className="mb-6">
-              I had the exciting opportunity to collaborate with a small escape
-              room company, which also offered immersive City Quests. In this
-              project, I was responsible for a complete redesign, focusing on
-              enhancing the user experience (UI/UX). My work included updating
-              WordPress plugins to ensure a seamless and engaging experience.
-            </p>
+
             <div className="flex justify-end">
               <a
                 className=" inline-block"
                 target="_blank"
-                href="https://www.justescape-austria.com/"
+                href="https://markkunitski.github.io/zeusky/"
               >
                 View the project &gt;
               </a>

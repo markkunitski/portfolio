@@ -33,12 +33,12 @@ p {
 }
 .about p {
   margin-bottom: 2rem;
+  color: #333;
   line-height: 1.85rem;
 }
 .focus {
   color: #000;
-  font-weight: 400;
-  font-size: 1.1rem;
+  font-weight: 600;
 }
 .image-container {
   cursor: pointer;
@@ -58,7 +58,7 @@ p {
 .projects_text {
   border: 1px solid #000;
   transform: translateY(-12px);
-  padding: 2.4rem 1.2rem 2rem 1.2rem;
+  padding: 2.4rem 1rem 2rem 1rem;
   border-radius: 0 0 0.75rem 0.75rem;
   justify-content: space-between;
 }
@@ -76,6 +76,11 @@ p {
   justify-content: space-between;
 
 }
+.methods a {
+  margin-bottom: 8px;
+}
+
+
 @media (max-width: 756px){
   
   .image-container.mr-6{
