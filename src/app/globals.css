@@ -2,18 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+:root {
   background-color: #ffe4c4;
   color: #111;
-  font-weight: 700;
+  font-weight: 300;
 }
 h1 {
+  font-size: 2.5rem;
+}
+h2 {
   font-size: 2rem;
 }
+h5 {
+  font-size: 1.5rem;
+}
 a {
-  color: #4B0082;
+  font-weight: 700;
   text-decoration: underline;
-  transition: .07s ease;
+  transition: 0.06s ease;
 }
 a:hover {
   transform: translateY(-2px);
@@ -23,10 +29,65 @@ a:hover {
 }
 p {
   color: #222;
-  margin-bottom: 1.5rem;
-  line-height: 1.7rem;
+  line-height: 1.65rem;
+}
+.about p {
+  margin-bottom: 2rem;
+  line-height: 1.85rem;
 }
 .focus {
   color: #000;
-  font-weight: 900;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+.image-container {
+  cursor: pointer;
+  transition: transform 0.15s;
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+.grayscale {
+  filter: grayscale(100%);
+  transition: filter 0.15s;
+}
+
+.image-container:hover .grayscale {
+  filter: grayscale(0%);
+}
+.projects_text {
+  border: 1px solid #000;
+  transform: translateY(-12px);
+  padding: 2.4rem 1.2rem 2rem 1.2rem;
+  border-radius: 0 0 0.75rem 0.75rem;
+  justify-content: space-between;
+}
+.projects .badge {
+  margin-right: 4px;
+  margin-bottom: 6px;
+  transition: .3s ease;
+}
+.projects .badge:hover {
+  background-color: rgba(255, 187, 0, 0.2);
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+@media (max-width: 756px){
+  
+  .image-container.mr-6{
+    margin-right: 6px;
+  }
+}
+@media (max-width: 660px){
+  :root {
+    font-size: 14px;
+  }
+  .image-container {
+    width: 100%;
+    margin-right: 0;
+  }
 }
