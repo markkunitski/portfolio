@@ -172,6 +172,7 @@ const Projects = () => {
               <div className="badge badge-outline">Tailwind</div>
               <div className="badge badge-outline">API</div>
               <div className="badge badge-outline">Cookies</div>
+              <div className="badge badge-outline">AJAX</div>
               <div className="badge badge-outline">UI/UX</div>
             </div>
             <p className="mb-6">
