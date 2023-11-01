@@ -19,7 +19,7 @@ h5 {
 a {
   font-weight: 700;
   text-decoration: underline;
-  transition: 0.06s ease;
+  transition: 0.15s ease-in-out;
 }
 a:hover {
   transform: translateY(-2px);
@@ -33,12 +33,11 @@ p {
 }
 .about p {
   margin-bottom: 2rem;
-  color: #333;
   line-height: 1.85rem;
 }
 .focus {
   color: #000;
-  font-weight: 600;
+  font-weight: 500;
 }
 .image-container {
   cursor: pointer;
@@ -61,32 +60,57 @@ p {
   border-radius: 0 0 0.75rem 0.75rem;
   justify-content: space-between;
 }
-.projects .badge {
+.badge {
   margin-right: 4px;
   margin-bottom: 6px;
-  transition: .3s ease;
+  transition: 0.3s ease;
 }
-.projects .badge:hover {
+.badge:hover {
   background-color: rgba(255, 187, 0, 0.2);
 }
 .projects {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-
 }
 .methods a {
   margin-bottom: 8px;
 }
 
+.scrolling-text {
+  display: flex;
+  margin-bottom: 5rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  overflow: hidden;
+}
 
-@media (max-width: 756px){
-  
-  .image-container.mr-6{
+.scrolling-content {
+  display: flex;
+  white-space: nowrap;
+  animation: scroll var(--animation-duration, 30s) linear infinite;
+}
+
+.scrolling-content p {
+  margin-right: 1rem;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(calc(-40% + var(--content-width)));
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media (max-width: 756px) {
+  .image-container.mr-6 {
     margin-right: 6px;
   }
 }
-@media (max-width: 660px){
+@media (max-width: 660px) {
   :root {
     font-size: 14px;
   }

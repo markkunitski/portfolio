@@ -1,11 +1,11 @@
 "use client";
 import Header from "./components/Header";
-
-import { useState } from "react";
-import ElemComponent from "./components/ElemComponent";
-import Link from "next/link";
-import Projects from "./components/Projects";
 import About from "./components/About";
+import Carousel from "./components/Carousel";
+import ElemComponent from "./components/ElemComponent";
+import Journey from "./components/Journey";
+import Projects from "./components/Projects";
+import MyFooter from "./components/MyFooter";
 export default function Home() {
   return (
     <>
@@ -16,7 +16,7 @@ export default function Home() {
             <div className="flex flex-col justify-center items-center">
               <h1>Mark Kunitski</h1>
               <span className="text-center">
-                React frontend development, ui/ux design
+                React frontend development, UI/UX design
               </span>
             </div>
           </div>
@@ -124,7 +124,6 @@ export default function Home() {
                 </>
               }
             ></ElemComponent>
-
             <ElemComponent
               name="JavaScript"
               text={
@@ -233,8 +232,17 @@ export default function Home() {
               }
             ></ElemComponent>
           </div>
+          <div className="reviews mb-40">
+            <h2 className="mb-28 text-center">My clients</h2>
+            <Carousel></Carousel>
+          </div>
+          <div className="journey mb-40">
+            <h2 className="mb-28 text-center">My Journey</h2>
+            <Journey></Journey>
+          </div>
         </div>
       </main>
+      <MyFooter></MyFooter>
     </>
   );
 }

@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header>
       <div className="container mx-auto flex justify-center mt-6">
-        <Link className="mr-4" hrefLang="en" href="/">
+        <Link className="mr-4" hrefLang="en"  href="/">
           english
         </Link>
         <Link hrefLang="pl" href="/pl">
