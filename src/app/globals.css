@@ -103,7 +103,7 @@ p {
 }
 @keyframes scroll {
   0% {
-    transform: translateX(calc(-60% + var(--content-width)));
+    transform: translateX(calc(-43% + var(--content-width)));
   }
   100% {
     transform: translateX(-100%);
