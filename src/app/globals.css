@@ -89,16 +89,21 @@ p {
 .scrolling-content {
   display: flex;
   white-space: nowrap;
-  animation: scroll var(--animation-duration, 30s) linear infinite;
+  animation: scroll var(--animation-duration, 20s) linear infinite;
 }
 
 .scrolling-content p {
   margin-right: 1rem;
 }
-
+.links {
+  background-color: #ffe4c4;
+}
+.links img {
+  border-radius: 10px;
+}
 @keyframes scroll {
   0% {
-    transform: translateX(calc(-40% + var(--content-width)));
+    transform: translateX(calc(-60% + var(--content-width)));
   }
   100% {
     transform: translateX(-100%);

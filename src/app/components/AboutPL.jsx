@@ -1,28 +1,9 @@
-import React from "react";
-import Image from "next/image";
-import linked from "/public/linkedin-svgrepo-com.svg";
-import githib from "/public/github-142-svgrepo-com.svg";
 
 const About = () => {
   return (
     <div className="mb-40 about">
       <div className="flex justify-between items-center about mb-20">
-        <h2>O mnie</h2>
-
-        <div className="flex">
-          <a className="mr-2" href="https://www.linkedin.com/in/markkunitski/">
-            <Image width={32} height={32} alt="linkedin" src={linked}></Image>
-          </a>
-          <a href="https://github.com/markkunitski">
-            <Image
-              className="p-px"
-              width={31}
-              height={31}
-              alt="linkedin"
-              src={githib}
-            ></Image>
-          </a>
-        </div>
+        <h2 className="text-center w-full">O mnie</h2>
       </div>
       <div>
         <p>

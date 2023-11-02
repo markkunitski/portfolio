@@ -13,7 +13,7 @@ const Carousel = () => {
           className="carousel-item relative w-full min-h-[600px]"
         >
           <div className="mt-32">
-            <div className="flex items-center mb-6">
+            <div className="flex items-center mb-6 mt-10">
               <Image
                 className="rounded-full mr-6"
                 src={rita}
@@ -22,8 +22,12 @@ const Carousel = () => {
                 loading="lazy"
                 alt="Just Escape Your City Manager"
               ></Image>
-              <h5>Rita Telesa</h5>
-              <span className="ml-4 mt-1">Just Escape Your City Manager</span>
+              <div className="flex flex-wrap items-baseline">
+                <h5 className="w-full sm:w-auto">Rita Telesa</h5>
+                <span className="sm:ml-4 mt-1">
+                  Just Escape Your City Manager
+                </span>
+              </div>
             </div>
             <div className="tasks flex flex-wrap items-center">
               <div className="badge badge-outline">
@@ -67,7 +71,7 @@ const Carousel = () => {
               </p>
             </div>
           </div>
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-0 right-0 top-[40px]">
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-0 right-0 top-[80px]">
             <a
               href="#slide4"
               className="btn btn-circle btn-outline border-black text-black"
@@ -87,7 +91,7 @@ const Carousel = () => {
           className="carousel-item relative w-full min-h-[600px]"
         >
           <div className="mt-32">
-            <div className="flex items-center mb-6">
+            <div className="flex items-center mb-6 mt-10">
               <Image
                 className="rounded-full mr-6"
                 src={michael}
@@ -96,8 +100,12 @@ const Carousel = () => {
                 loading="lazy"
                 alt="Just Escape Austria Manager"
               ></Image>
-              <h5>Michael Prantl</h5>
-              <span className="ml-4 mt-1">Just Escape Austria Manager</span>
+              <div className="flex flex-wrap items-baseline">
+                <h5 className="w-full sm:w-auto">Michael Prantl</h5>
+                <span className="sm:ml-4 mt-1">
+                  Just Escape Austria Manager
+                </span>
+              </div>
             </div>
             <div className="tasks flex flex-wrap items-center">
               <div className="badge badge-outline">
@@ -135,7 +143,7 @@ const Carousel = () => {
               </p>
             </div>
           </div>
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-0 right-0 top-[40px]">
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-0 right-0 top-[80px]">
             <a
               href="#slide1"
               className="btn btn-circle btn-outline border-black text-black"
@@ -155,7 +163,7 @@ const Carousel = () => {
           className="carousel-item relative w-full min-h-[600px]"
         >
           <div className="mt-32">
-            <div className="flex items-center mb-6">
+            <div className="flex items-center mb-6 mt-10">
               <Image
                 className="rounded-full mr-6"
                 src={zeuskysvg}
@@ -164,8 +172,10 @@ const Carousel = () => {
                 loading="lazy"
                 alt="Zeusky CEO"
               ></Image>
-              <h5>Igor Mohhov</h5>
-              <span className="ml-4 mt-1">Zeusky CEO</span>
+              <div className="flex flex-wrap items-baseline">
+                <h5 className="w-full sm:w-auto">Igor Mohhov</h5>
+                <span className="sm:ml-4 mt-1">Zeusky CEO</span>
+              </div>
             </div>
             <div className="tasks flex flex-wrap items-center">
               <div className="badge badge-outline">Nowa Strona Internetowa</div>
@@ -213,7 +223,7 @@ const Carousel = () => {
               </p>
             </div>
           </div>
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-0 right-0 top-[40px]">
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-0 right-0 top-[80px]">
             <a
               href="#slide2"
               className="btn btn-circle btn-outline border-black text-black"
@@ -233,7 +243,7 @@ const Carousel = () => {
           className="carousel-item relative w-full min-h-[600px]"
         >
           <div className="mt-32">
-            <div className="flex items-center mb-6">
+            <div className="flex items-center mb-6 mt-10">
               <Image
                 className="rounded-full mr-6"
                 src={skalp}
@@ -242,8 +252,10 @@ const Carousel = () => {
                 loading="lazy"
                 alt="Head of Nodaunt Backend"
               ></Image>
-              <h5>Aliaxandr Skulavets</h5>
-              <span className="ml-4 mt-1">Head of Nodaunt Backend</span>
+              <div className="flex flex-wrap items-baseline">
+                <h5 className="w-full sm:w-auto">Aliaxandr Skulavets</h5>
+                <span className="sm:ml-4 mt-1">Head of Nodaunt Backend</span>
+              </div>
             </div>
             <div className="tasks flex flex-wrap items-center">
               <div className="badge badge-outline">Cała Logika Frontendu</div>
@@ -286,7 +298,7 @@ const Carousel = () => {
               </p>
             </div>
           </div>
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-0 right-0 top-[40px]">
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-0 right-0 top-[80px]">
             <a
               href="#slide3"
               className="btn btn-circle btn-outline border-black text-black"
