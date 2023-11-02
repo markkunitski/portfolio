@@ -4,7 +4,7 @@ import Head from "next/head";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "markkunitski | react dev",
+  title: "More Challenge - More Fun",
   description: "Mark Kunitski frontend developer portfolio",
 };
 
