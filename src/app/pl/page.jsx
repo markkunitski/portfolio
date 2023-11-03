@@ -7,7 +7,27 @@ import JourneyPL from "../components/JourneyPL";
 import ProjectsPL from "../components/ProjectsPL";
 import MyFooter from "../components/MyFooter";
 import Head from "next/head";
+import { useEffect } from "react";
 const page = () => {
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          }
+        });
+      },
+      {
+        threshold: 0.1,
+      }
+    );
+
+    document.querySelectorAll(".observe").forEach((block) => {
+      console.log(block);
+      observer.observe(block);
+    });
+  }, []);
   return (
     <>
       <Head>
@@ -22,13 +42,13 @@ const page = () => {
             <div className="flex flex-col justify-center items-center">
               <h1>Mark Kunitski</h1>
               <span className="text-center">
-                Programowanie frontendowe React, projektowanie UI/UX
+                22-letni Białoruski Frontend Developer React | Projektant UI/UX
               </span>
             </div>
           </div>
           <AboutPL></AboutPL>
           <ProjectsPL></ProjectsPL>
-          <div className="methods mb-40">
+          <div className="methods mb-40 observe">
             <h2 className="text-center mb-28">Moja praktyka</h2>
             <ElemComponent
               name="React"
@@ -238,11 +258,11 @@ const page = () => {
               }
             ></ElemComponent>
           </div>
-          <div className="reviews mb-40">
+          <div className="reviews mb-40 observe">
             <h2 className="mb-28 text-center">Moi klienci</h2>
             <CarouselPL></CarouselPL>
           </div>
-          <div className="journey mb-40">
+          <div className="journey mb-40 observe">
             <h2 className="mb-28 text-center">Moja podróż</h2>
             <JourneyPL></JourneyPL>
           </div>

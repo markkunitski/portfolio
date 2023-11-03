@@ -3,7 +3,7 @@ import React from "react";
 const Journey = () => {
   return (
     <>
-      <div className="elem mb-10">
+      <div className="elem mb-10 observe">
         <h5 className="mb-2">
           Co wywołało moje zainteresowanie rozwojem stron internetowych?
         </h5>
@@ -22,7 +22,7 @@ const Journey = () => {
         </p>
       </div>
 
-      <div className="elem mb-10">
+      <div className="elem mb-10 observe">
         <h5 className="mb-2">Szczególny projekt, który wyróżnia się</h5>
         <p>
           Najbardziej niezwykłym projektem, nad którym pracowałem, jest NODAUNT.
@@ -39,7 +39,7 @@ const Journey = () => {
         </p>
       </div>
 
-      <div className="elem mb-10">
+      <div className="elem mb-10 observe">
         <h5 className="mb-2">Co mnie motywuje podczas długich godzin pracy?</h5>
         <p>
           Jeśli chcesz osiągnąć wielkość, musisz zwiększyć swoje szanse na
@@ -56,7 +56,7 @@ const Journey = () => {
         </p>
       </div>
 
-      <div className="elem mb-10">
+      <div className="elem mb-10 observe">
         <h5 className="mb-2">
           Nauka kodowania i osiągnięcie biegłości w tworzeniu stron
           internetowych
@@ -77,7 +77,7 @@ const Journey = () => {
         </p>
       </div>
 
-      <div className="elem mb-10">
+      <div className="elem mb-10 observe">
         <h5 className="mb-2">
           Mentorzy, wzory do naśladowania i wpływowe źródła
         </h5>
@@ -99,7 +99,7 @@ const Journey = () => {
         </p>
       </div>
 
-      <div className="elem mb-10">
+      <div className="elem mb-10 observe">
         <h5 className="mb-2">
           Krok w krok z ewoluującą dziedziną tworzenia stron internetowych
         </h5>
@@ -115,7 +115,7 @@ const Journey = () => {
         </p>
       </div>
 
-      <div className="elem mb-10">
+      <div className="elem mb-10 observe">
         <h5 className="mb-2">Przyszłe projekty i ciągły rozwój</h5>
         <p>
           W przyszłości pragnę podjąć się bardziej wymagających i

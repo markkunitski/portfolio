@@ -1,7 +1,7 @@
 
 const About = () => {
   return (
-    <div className="mb-40 about">
+    <div className="mb-40 about observe">
       <div className="flex justify-between items-center about mb-20">
         <h2 className="text-center w-full">O mnie</h2>
       </div>

@@ -11,7 +11,7 @@ function ElemComponent({ name, text }) {
   return (
     <div
       onClick={handleOpen}
-      className="elem pb-6 mb-8 border-b border-black cursor-pointer"
+      className="elem pb-6 mb-8 border-b border-black cursor-pointer observe"
     >
       <div className="shown flex justify-between items-center">
         <h2 className="">{name}</h2>

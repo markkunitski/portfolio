@@ -2,8 +2,8 @@ import React from "react";
 
 const Journey = () => {
   return (
-    <>
-      <div className="elem mb-10">
+    <div className="observe">
+      <div className="elem mb-10 observe">
         <h5 className="mb-2">What sparked my interest in web development?</h5>
         <p>
           I was trying myself as a professional cybersport player, it was my
@@ -19,7 +19,7 @@ const Journey = () => {
         </p>
       </div>
 
-      <div className="elem mb-10">
+      <div className="elem mb-10 observe">
         <h5 className="mb-2">A particular project that stands out</h5>
         <p>
           The most remarkable project I've worked on is NODAUNT. It was the most
@@ -35,7 +35,7 @@ const Journey = () => {
         </p>
       </div>
 
-      <div className="elem mb-10">
+      <div className="elem mb-10 observe">
         <h5 className="mb-2">
           What keeps me motivated during long working hours?
         </h5>
@@ -53,7 +53,7 @@ const Journey = () => {
         </p>
       </div>
 
-      <div className="elem mb-10">
+      <div className="elem mb-10 observe">
         <h5 className="mb-2">
           Learning to code and becoming proficient in web development
         </h5>
@@ -73,7 +73,7 @@ const Journey = () => {
         </p>
       </div>
 
-      <div className="elem mb-10">
+      <div className="elem mb-10 observe">
         <h5 className="mb-2">
           Mentors, role models, and influential resources
         </h5>
@@ -93,7 +93,7 @@ const Journey = () => {
         </p>
       </div>
 
-      <div className="elem mb-10">
+      <div className="elem mb-10 observe">
         <h5 className="mb-2">
           Keeping up with the evolving field of web development
         </h5>
@@ -108,7 +108,7 @@ const Journey = () => {
         </p>
       </div>
 
-      <div className="elem mb-10">
+      <div className="elem mb-10 observe">
         <h5 className="mb-2">Aspiring projects and continuous growth</h5>
         <p>
           In the future, I aspire to take on more challenging and complex
@@ -121,7 +121,7 @@ const Journey = () => {
           strive for continuous improvement.
         </p>
       </div>
-    </>
+    </div>
   );
 };
 

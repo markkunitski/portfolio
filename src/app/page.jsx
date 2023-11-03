@@ -6,7 +6,28 @@ import ElemComponent from "./components/ElemComponent";
 import Journey from "./components/Journey";
 import Projects from "./components/Projects";
 import MyFooter from "./components/MyFooter";
+import { useEffect } from "react";
 export default function Home() {
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          }
+        });
+      },
+      {
+        threshold: 0.1,
+      }
+    );
+
+    document.querySelectorAll(".observe").forEach((block) => {
+      console.log(block);
+      observer.observe(block);
+    });
+  }, []);
+
   return (
     <>
       <Header></Header>
@@ -16,13 +37,13 @@ export default function Home() {
             <div className="flex flex-col justify-center items-center">
               <h1>Mark Kunitski</h1>
               <span className="text-center">
-                React frontend development, UI/UX design
+                22 yo Belarusian Frontend React Dev | UI/UX Designer
               </span>
             </div>
           </div>
-          <About></About>
-          <Projects></Projects>
-          <div className="methods mb-40">
+          <About className="observe"></About>
+          <Projects className="observe"></Projects>
+          <div className="methods mb-40 observe">
             <h2 className="text-center mb-28">My practice</h2>
             <ElemComponent
               name="React"
@@ -232,11 +253,11 @@ export default function Home() {
               }
             ></ElemComponent>
           </div>
-          <div className="reviews mb-40">
-            <h2 className="mb-28 text-center">My clients</h2>
+          <div className="reviews mb-40 observe">
+            <h2 className="mb-28 text-center ">My clients</h2>
             <Carousel></Carousel>
           </div>
-          <div className="journey mb-40">
+          <div className="journey mb-40 observe">
             <h2 className="mb-28 text-center">My Journey</h2>
             <Journey></Journey>
           </div>

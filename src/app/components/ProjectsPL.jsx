@@ -8,7 +8,7 @@ import tasks from "/public/projects/tasks.jpg";
 import zeusky from "/public/projects/zeusky.jpg";
 const Projects = () => {
   return (
-    <div className="mb-40 ">
+    <div className="mb-40 observe">
       <h2 className="text-center mb-28">Moje projekty</h2>
       <div className="projects">
         <div className="image-container mr-6 flex flex-grow flex-col">
