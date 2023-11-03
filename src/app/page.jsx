@@ -7,6 +7,8 @@ import Journey from "./components/Journey";
 import Projects from "./components/Projects";
 import MyFooter from "./components/MyFooter";
 import { useEffect } from "react";
+import Image from "next/image";
+import me from "/public/linked.jpg";
 export default function Home() {
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -35,6 +37,7 @@ export default function Home() {
         <div className="max-w-screen-md mx-auto">
           <div className="hello w-full flex items-center justify-center">
             <div className="flex flex-col justify-center items-center">
+              <Image className="mb-10 rounded-full" width={200} height={200} src={me} alt="mark kunitski"></Image>
               <h1>Mark Kunitski</h1>
               <span className="text-center">
                 22 yo Belarusian Frontend React Dev | UI/UX Designer
