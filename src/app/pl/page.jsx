@@ -7,6 +7,8 @@ import JourneyPL from "../components/JourneyPL";
 import ProjectsPL from "../components/ProjectsPL";
 import MyFooter from "../components/MyFooter";
 import Head from "next/head";
+import Image from "next/image";
+import me from "/public/linked.jpg";
 import { useEffect } from "react";
 const page = () => {
   useEffect(() => {
@@ -40,6 +42,13 @@ const page = () => {
         <div className="max-w-screen-md mx-auto">
           <div className="hello w-full flex items-center justify-center">
             <div className="flex flex-col justify-center items-center">
+              <Image
+                className="mb-10 rounded-full"
+                width={200}
+                height={200}
+                src={me}
+                alt="mark kunitski"
+              ></Image>
               <h1>Mark Kunitski</h1>
               <span className="text-center">
                 22-letni Białoruski Frontend Developer React | Projektant UI/UX
