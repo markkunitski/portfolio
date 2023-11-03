@@ -59,16 +59,16 @@ const Carousel = () => {
             <div className="review mt-6">
               <p>
                 <strong>Review: </strong>
-                Mark played a pivotal role in managing our digital presence and
-                enhancing the user experience. He shouldered numerous critical
-                tasks, including creating new quests, website maintenance,
-                advertising management, and boosting our online visibility. His
-                dedication and expertise were integral to our success, and we're
-                truly grateful for his exceptional work.
+                Mark was always professional and had a deep understanding of
+                various IT systems, as well as the technical skills and
+                knowledge needed for the job. More than that, he was a pleasure
+                to work with. He had a positive attitude, was always willing to
+                learn and grow, and was always supportive of his team and
+                colleagues.
               </p>
             </div>
           </div>
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-0 right-0 top-[80px]">
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-0 right-0 top-[80px] ">
             <a
               href="#slide4"
               className="btn btn-circle btn-outline border-black text-black"
@@ -127,17 +127,19 @@ const Carousel = () => {
             </div>
             <div className="review mt-6">
               <p>
-                <strong>Review: </strong>
-                Mark totally nailed our digital presence project! He took the
-                reins from start to finish, coming up with cool ideas and
-                crafting a killer website that gives users a smooth ride. We
-                can't thank him enough for his invaluable contribution, and a
-                big part of our success is thanks to his skill and dedication.
-                Mark's work is truly exceptional.
+                <strong>Review: </strong>I am writing to recommend Mark
+                Kunitski, who has been a valuable member of our team at Just
+                Escape Austria for the past year. Mark excels in troubleshooting
+                and resolving technical issues. He has a keen analytical mind
+                and pays great attention to detail, allowing him to tackle even
+                the most challenging problems effectively. Moreover, Mark has a
+                knack for explaining technical concepts to both technical and
+                non-technical team members, facilitating collaboration and
+                ensuring seamless project execution.
               </p>
             </div>
           </div>
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-0 right-0 top-[80px]">
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-0 right-0 top-[80px] ">
             <a
               href="#slide1"
               className="btn btn-circle btn-outline border-black text-black"
@@ -214,7 +216,7 @@ const Carousel = () => {
               </p>
             </div>
           </div>
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-0 right-0 top-[80px]">
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-0 right-0 top-[80px] ">
             <a
               href="#slide2"
               className="btn btn-circle btn-outline border-black text-black"
@@ -286,7 +288,7 @@ const Carousel = () => {
               </p>
             </div>
           </div>
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-0 right-0 top-[80px]">
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-0 right-0 top-[80px] ">
             <a
               href="#slide3"
               className="btn btn-circle btn-outline border-black text-black"

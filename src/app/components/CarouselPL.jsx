@@ -61,13 +61,12 @@ const Carousel = () => {
             <div className="review mt-6">
               <p>
                 <strong>Recenzja: </strong>
-                Mark odegrał kluczową rolę w zarządzaniu naszą obecnością online
-                i poprawianiu doświadczenia użytkownika. Podjął wiele istotnych
-                zadań, w tym tworzenie nowych zadań, utrzymanie strony
-                internetowej, zarządzanie reklamami i zwiększanie widoczności
-                online. Jego zaangażowanie i ekspertyza były integralną częścią
-                naszego sukcesu, i jesteśmy naprawdę wdzięczni za jego wyjątkową
-                pracę.
+                Mark zawsze był profesjonalny i miał głęboką znajomość różnych
+                systemów informatycznych, a także umiejętności techniczne i
+                wiedzę niezbędną do wykonywania pracy. Ponadto, praca z nim była
+                czystą przyjemnością. Miał pozytywne podejście, zawsze chętnie
+                się uczył i rozwijał oraz zawsze wspierał swoją drużynę i
+                kolegów z pracy.
               </p>
             </div>
           </div>
@@ -132,14 +131,16 @@ const Carousel = () => {
             </div>
             <div className="review mt-6">
               <p>
-                <strong>Recenzja: </strong>
-                Mark całkowicie odniósł sukces w naszym projekcie dotyczącym
-                obecności online! Od początku do końca przejął stery,
-                wprowadzając świetne pomysły i tworząc doskonałą stronę
-                internetową, która zapewnia użytkownikom płynność korzystania.
-                Nie możemy go wystarczająco podziękować za nieoceniony wkład, a
-                duży sukces zawdzięczamy jego umiejętnościom i zaangażowaniu.
-                Praca Marka jest naprawdę wyjątkowa.
+                <strong>Recenzja: </strong>Z przyjemnością polecam Marka
+                Kunitskiego, który przez ostatni rok był cennym członkiem
+                naszego zespołu w firmie Just Escape Austria. Mark wyróżnia się
+                w rozwiązywaniu problemów technicznych. Posiada bystry umysł
+                analityczny i zwraca szczególną uwagę na detale, co pozwala mu
+                skutecznie radzić sobie nawet z najbardziej wymagającymi
+                problemami. Ponadto Mark ma talent do tłumaczenia koncepcji
+                technicznych zarówno dla członków zespołu o technicznym jak i
+                nietechnicznym podejściu, co ułatwia współpracę i zapewnia
+                płynne realizowanie projektów
               </p>
             </div>
           </div>
