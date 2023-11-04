@@ -181,14 +181,15 @@ const Projects = () => {
               <div className="badge badge-outline">UI/UX</div>
             </div>
             <p className="mb-6">
-              Ten projekt skupił się na tworzeniu efektywnej logiki do
-              wyświetlania informacji o rezerwacjach i procesach logowania.
-              Wykorzystując React i TypeScript, zoptymalizowałem doświadczenie
-              użytkownika w dostępie i interakcji z danymi rezerwacji,
-              jednocześnie poprawiając bezpieczeństwo i łatwość logowania
-              użytkowników. Zapraszam do zapoznania się z tym projektem, aby
-              zobaczyć, jak zrobiłem złożone informacje o rezerwacjach i
-              procedury logowania w prosty sposób.
+              W tym projekcie doskonaliłem swoje umiejętności programowania
+              obiektowego (OOP) dzięki pracy z żądaniami Ajax i plikami cookie,
+              tworząc efektywną aplikację do zarządzania zadaniami z timerem.
+              Usprawniłem logikę wyświetlania zadań i dodatkowe funkcje
+              przyjazne dla użytkownika, umożliwiając trwałe przechowywanie
+              danych za pomocą plików cookie. Aktualizacje w czasie rzeczywistym
+              dzięki Ajax zwiększyły komfort użytkowników, co podkreśliło moje
+              zaangażowanie w doskonalenie zasad projektowania interfejsu
+              użytkownika (UI/UX) oraz uproszczenie zarządzania zadaniami.
             </p>
             <div className="flex justify-end items-center">
               <a
@@ -217,18 +218,12 @@ const Projects = () => {
               <div className="badge badge-outline">Projektowanie logo</div>
               <div className="badge badge-outline">UI/UX</div>
               <p className="mb-6 mt-4">
-                Moim celem było stworzenie dynamicznej i atrakcyjnej wizualnie
-                strony internetowej od podstaw dla estońskiej firmy IT, Zeusky.
-                To przedsięwzięcie w zakresie rozwoju stron internetowych
-                prezentuje naszą wiedzę w różnych kluczowych obszarach, w tym
-                JavaScript do zapewnienia interaktywności, Tailwind do
-                nowoczesnego stylizowania, responsywnego projektowania stron
-                (RWD) w celu zapewnienia dostępności na różnych urządzeniach, a
-                także projektowania logo dla kompleksowego podejścia do
-                budowania marki. Z silnym naciskiem na zasady projektowania
-                interfejsu użytkownika (UI) i doświadczenia użytkownika (UX),
-                nasza strona internetowa dla Zeusky doskonale łączy technologię
-                i kreatywność, odzwierciedlając ostatecznie innowacyjny
+                Zadaniem było stworzenie atrakcyjnej i dynamicznej strony
+                internetowej dla estońskiej firmy IT, Zeusky. Wykorzystaliśmy
+                naszą wiedzę z zakresu JavaScript do interaktywności, Tailwind
+                do nowoczesnego stylizowania, RWD dla dostępności na różnych
+                urządzeniach i projektowania logo. Nasza strona Zeusky łączy
+                technologię z kreatywnością, odzwierciedlając innowacyjny
                 charakter tej firmy IT.
               </p>
             </div>

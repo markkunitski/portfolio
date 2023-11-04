@@ -176,20 +176,12 @@ const Projects = () => {
               <div className="badge badge-outline">UI/UX</div>
             </div>
             <p className="mb-6">
-              W tym projekcie doskonaliłem swoje umiejętności programowania
-              obiektowego (OOP), pracując jednocześnie z żądaniami Ajax i
-              plikami cookie. Głównym celem było stworzenie zwrotnej aplikacji
-              do zarządzania zadaniami z funkcją timera. Wykorzystując swoją
-              wiedzę w dziedzinie JavaScript, zaprojektowałem efektywną logikę
-              do wyświetlania informacji o zadaniach i wdrożyłem przyjazne dla
-              użytkownika funkcje. Wykorzystanie plików cookie zapewniło trwałe
-              przechowywanie danych, umożliwiając użytkownikom stały dostęp do
-              swoich list zadań. Wprowadziłem również żądania Ajax w celu
-              dostarczenia aktualizacji w czasie rzeczywistym, poprawiając
-              ogólną jakość użytkownika. Ten projekt nie tylko doskonalił moje
-              umiejętności OOP, ale również stanowił przykład mojego
-              zaangażowania w poprawę interfejsu użytkownika (UI/UX) i
-              uproszczenie zarządzania zadaniami dla użytkowników.
+              In this project, I honed my OOP skills with Ajax and cookies to
+              create an efficient task management app with a timer. I improved
+              task display logic and user-friendly features, enabling persistent
+              data storage through cookies. Real-time updates with Ajax enhanced
+              the user experience, showcasing my commitment to improving UI/UX
+              and simplifying task management.
             </p>
             <div className="flex justify-end items-center">
               <a
@@ -218,17 +210,14 @@ const Projects = () => {
               <div className="badge badge-outline ">Logo design</div>
               <div className="badge badge-outline ">UI/UX</div>
               <p className="mb-6 mt-4">
-                My goal was to create a dynamic and visually appealing web page
-                from the ground up for the Estonian IT firm, Zeusky. This web
-                development endeavor showcased our expertise in a variety of key
-                areas, including JavaScript for interactivity, Tailwind for
-                modern styling, responsive web design (RWD) to ensure
-                accessibility across devices, and even logo design for a
-                comprehensive branding approach. With a strong focus on user
-                interface and user experience (UI/UX) design principles, our web
-                page for Zeusky exemplifies a seamless blend of technology and
-                creativity, ultimately reflecting the innovative spirit of this
-                IT company.
+                My objective was to craft an attractive and dynamic website for
+                the Estonian IT firm, Zeusky, showcasing our expertise in
+                JavaScript for interactivity, Tailwind for modern styling,
+                responsive web design (RWD) for cross-device accessibility, and
+                comprehensive logo design. Emphasizing user interface and user
+                experience (UI/UX) principles, our Zeusky website seamlessly
+                merges technology and creativity, echoing the innovative spirit
+                of this IT company.
               </p>
             </div>
 
