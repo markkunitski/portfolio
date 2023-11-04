@@ -217,12 +217,19 @@ const Projects = () => {
               <div className="badge badge-outline">Projektowanie logo</div>
               <div className="badge badge-outline">UI/UX</div>
               <p className="mb-6 mt-4">
-                Miałem ekscytującą możliwość współpracy z niewielką firmą
-                prowadzącą escape roomy, która oferowała także immersyjne City
-                Quests. W tym projekcie byłem odpowiedzialny za kompletny
-                redesign, skupiając się na poprawie jakości doświadczenia
-                użytkownika (UI/UX). Moja praca obejmowała aktualizację wtyczek
-                WordPress, aby zapewnić płynne i angażujące doświadczenie.
+                Moim celem było stworzenie dynamicznej i atrakcyjnej wizualnie
+                strony internetowej od podstaw dla estońskiej firmy IT, Zeusky.
+                To przedsięwzięcie w zakresie rozwoju stron internetowych
+                prezentuje naszą wiedzę w różnych kluczowych obszarach, w tym
+                JavaScript do zapewnienia interaktywności, Tailwind do
+                nowoczesnego stylizowania, responsywnego projektowania stron
+                (RWD) w celu zapewnienia dostępności na różnych urządzeniach, a
+                także projektowania logo dla kompleksowego podejścia do
+                budowania marki. Z silnym naciskiem na zasady projektowania
+                interfejsu użytkownika (UI) i doświadczenia użytkownika (UX),
+                nasza strona internetowa dla Zeusky doskonale łączy technologię
+                i kreatywność, odzwierciedlając ostatecznie innowacyjny
+                charakter tej firmy IT.
               </p>
             </div>
 

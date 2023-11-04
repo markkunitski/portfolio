@@ -176,12 +176,20 @@ const Projects = () => {
               <div className="badge badge-outline">UI/UX</div>
             </div>
             <p className="mb-6">
-              This project centered on crafting efficient logic for displaying
-              booking information and login processes. Leveraging React and
-              TypeScript, I streamlined the user experience for accessing and
-              interacting with booking details, while also enhancing the
-              security and ease of user login. Explore how I made complex
-              booking information and login procedures simple in this project.
+              W tym projekcie doskonaliłem swoje umiejętności programowania
+              obiektowego (OOP), pracując jednocześnie z żądaniami Ajax i
+              plikami cookie. Głównym celem było stworzenie zwrotnej aplikacji
+              do zarządzania zadaniami z funkcją timera. Wykorzystując swoją
+              wiedzę w dziedzinie JavaScript, zaprojektowałem efektywną logikę
+              do wyświetlania informacji o zadaniach i wdrożyłem przyjazne dla
+              użytkownika funkcje. Wykorzystanie plików cookie zapewniło trwałe
+              przechowywanie danych, umożliwiając użytkownikom stały dostęp do
+              swoich list zadań. Wprowadziłem również żądania Ajax w celu
+              dostarczenia aktualizacji w czasie rzeczywistym, poprawiając
+              ogólną jakość użytkownika. Ten projekt nie tylko doskonalił moje
+              umiejętności OOP, ale również stanowił przykład mojego
+              zaangażowania w poprawę interfejsu użytkownika (UI/UX) i
+              uproszczenie zarządzania zadaniami dla użytkowników.
             </p>
             <div className="flex justify-end items-center">
               <a
@@ -210,12 +218,17 @@ const Projects = () => {
               <div className="badge badge-outline ">Logo design</div>
               <div className="badge badge-outline ">UI/UX</div>
               <p className="mb-6 mt-4">
-                I had the exciting opportunity to collaborate with a small
-                escape room company, which also offered immersive City Quests.
-                In this project, I was responsible for a complete redesign,
-                focusing on enhancing the user experience (UI/UX). My work
-                included updating WordPress plugins to ensure a seamless and
-                engaging experience.
+                My goal was to create a dynamic and visually appealing web page
+                from the ground up for the Estonian IT firm, Zeusky. This web
+                development endeavor showcased our expertise in a variety of key
+                areas, including JavaScript for interactivity, Tailwind for
+                modern styling, responsive web design (RWD) to ensure
+                accessibility across devices, and even logo design for a
+                comprehensive branding approach. With a strong focus on user
+                interface and user experience (UI/UX) design principles, our web
+                page for Zeusky exemplifies a seamless blend of technology and
+                creativity, ultimately reflecting the innovative spirit of this
+                IT company.
               </p>
             </div>
 
