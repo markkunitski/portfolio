@@ -9,6 +9,7 @@ import MyFooter from "./components/MyFooter";
 import { useEffect } from "react";
 import Image from "next/image";
 import me from "/public/linked.jpg";
+import Diff from "./components/Diff";
 export default function Home() {
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -37,7 +38,13 @@ export default function Home() {
         <div className="max-w-screen-md mx-auto">
           <div className="hello w-full flex items-center justify-center">
             <div className="flex flex-col justify-center items-center">
-              <Image className="mb-10 rounded-full" width={200} height={200} src={me} alt="mark kunitski"></Image>
+              <Image
+                className="mb-10 rounded-full"
+                width={200}
+                height={200}
+                src={me}
+                alt="mark kunitski"
+              ></Image>
               <h1>Mark Kunitski</h1>
               <span className="text-center">
                 22 yo Belarusian Frontend React Dev | UI/UX Designer
@@ -45,6 +52,7 @@ export default function Home() {
             </div>
           </div>
           <About className="observe"></About>
+          <Diff></Diff>
           <Projects className="observe"></Projects>
           <div className="methods mb-40 observe">
             <h2 className="text-center mb-28">My practice</h2>

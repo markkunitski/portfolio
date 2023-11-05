@@ -10,6 +10,7 @@ import Head from "next/head";
 import Image from "next/image";
 import me from "/public/linked.jpg";
 import { useEffect } from "react";
+import DiffPL from "../components/DiffPL";
 const page = () => {
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -56,6 +57,7 @@ const page = () => {
             </div>
           </div>
           <AboutPL></AboutPL>
+          <DiffPL></DiffPL>
           <ProjectsPL></ProjectsPL>
           <div className="methods mb-40 observe">
             <h2 className="text-center mb-28">Moja praktyka</h2>

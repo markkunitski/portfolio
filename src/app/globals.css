@@ -33,7 +33,10 @@ p {
 }
 .about p {
   margin-bottom: 2rem;
-  line-height: 1.85rem;
+  line-height: 1.8rem;
+}
+.diff p {
+  margin-bottom: 1rem;
 }
 .focus {
   color: #000;
