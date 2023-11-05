@@ -62,12 +62,18 @@ const Projects = () => {
               <div className="badge badge-outline ">RWD</div>
               <div className="badge badge-outline ">UI/UX</div>
               <p className="mb-6 mt-4">
-                Miałem ekscytującą okazję do współpracy z niewielką firmą
-                prowadzącą escape roomy, oferującą także immersyjne City Quests.
-                W tym projekcie byłem odpowiedzialny za kompletny redesign,
-                skupiając się na poprawie jakości doświadczenia użytkownika
-                (UI/UX). Moja praca obejmowała aktualizację wtyczek WordPress,
-                aby zapewnić płynne i angażujące doświadczenie.
+                W Just Escape Austria podjąłem się trudnego projektu z napiętym
+                terminem, wynoszącym zaledwie jeden tydzień. Musiałem całkowicie
+                przeprojektować stronę opartą na WordPressie, pomimo
+                ograniczonej wcześniejszej wiedzy na ten temat. Szybko nabyłem
+                nowe umiejętności, od zakładania serwera otwartego po
+                zrozumienie WordPressa, wtyczek, integracji z PHP i hierarchii
+                stron. Mimo stromej krzywej nauki udało mi się uruchomić
+                funkcjonalną wersję strony na czas, co stanowiło około 80%
+                projektu. Następnie dokonałem dalszych ulepszeń w kolejnych
+                dniach. To doświadczenie podkreśla moją zdolność do
+                dostosowywania się, nauki i dostarczania rezultatów pod presją
+                terminów.
               </p>
             </div>
 

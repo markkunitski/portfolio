@@ -61,12 +61,17 @@ const Projects = () => {
               <div className="badge badge-outline ">RWD</div>
               <div className="badge badge-outline ">UI/UX</div>
               <p className="mb-6 mt-4">
-                I had the exciting opportunity to collaborate with a small
-                escape room company, which also offered immersive City Quests.
-                In this project, I was responsible for a complete redesign,
-                focusing on enhancing the user experience (UI/UX). My work
-                included updating WordPress plugins to ensure a seamless and
-                engaging experience.
+                At Just Escape Austria, I took on a challenging project with a
+                tight one-week deadline. I needed to completely redesign a
+                WordPress-based webpage, despite having limited prior experience
+                with WordPress. I quickly learned new skills, from setting up an
+                open server to understanding WordPress, plugins, PHP
+                integration, and page hierarchy. Despite the steep learning
+                curve, I managed to launch a functional version of the website
+                on time, completing about 80% of the project. I then made
+                further improvements in the following days. This experience
+                highlights my ability to adapt, learn, and deliver under
+                pressure.
               </p>
             </div>
 
