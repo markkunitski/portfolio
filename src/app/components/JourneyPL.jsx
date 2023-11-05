@@ -8,17 +8,23 @@ const Journey = () => {
           Co wywołało moje zainteresowanie rozwojem stron internetowych?
         </h5>
         <p>
-          Próbowałem swoich sił jako zawodowy gracz cyber-sportowy, to była moja
-          pasja przez 3 lata, ale niestety nie udało mi się osiągnąć sukcesu.
-          Pomimo tego, idea zostania kimś wielkim nadal ze mną pozostała. Chcę
-          tworzyć wspaniałe rzeczy, które będą kochane przez ludzi, a zdobycie
-          ich szacunku jest dla mnie najbardziej satysfakcjonujące. Wkraczałem w
-          świat IT, ponieważ mój najlepszy przyjaciel pracuje w tej branży od
-          ponad 10 lat, i wierzę, że najlepszym sposobem na naukę nowych rzeczy
-          jest mieć dobrego nauczyciela. Rozpocząłem od Pythona, a potem
-          przeszedłem do HTML/CSS/JS. Dodatkowo, w czasach mojego dorastania,
-          pracowałem jako projektant stron internetowych na zlecenie, co łączyło
-          moją pasję z umiejętnościami.
+          <p>
+            Próbowałem swoich sił jako zawodowy gracz e-sportowy, to była moja
+            pasja przez 3 lata, ale niestety nie udało mi się osiągnąć sukcesu.
+            Niemniej jednak idea stawania się doskonałym w czymś nadal jest we
+            mnie obecna. Chcę tworzyć wspaniałe rzeczy, które będą kochane przez
+            ludzi, a zdobywanie ich szacunku jest dla mnie najbardziej
+            satysfakcjonujące. Wkraczałem w dziedzinę informatyki, ponieważ mój
+            najlepszy przyjaciel pracuje w tej branży od ponad 10 lat, i wierzę,
+            że najlepszym sposobem na naukę jest mieć dobrego nauczyciela.
+            Rozpocząłem od Pythona, a następnie przeszedłem do HTML/CSS/JS.
+            Dodatkowo, w wieku nastoletnim pracowałem jako projektant stron
+            internetowych na zlecenie, co połączyło moje pasje i umiejętności.
+            Moje doświadczenie jako projektant UI/UX od 2018 do 2020 roku, gdzie
+            pracowałem z narzędziami takimi jak Photoshop i Figma, pomogło mi
+            zdobyć cenne spostrzeżenia z zakresu projektowania z myślą o
+            użytkowniku i usprawniania interfejsów użytkownika.
+          </p>
         </p>
       </div>
 

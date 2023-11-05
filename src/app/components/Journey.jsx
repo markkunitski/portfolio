@@ -15,7 +15,9 @@ const Journey = () => {
           learn new things is to have a good teacher. I started with Python and
           then transitioned to HTML/CSS/JS. Additionally, during my teenage
           years, I freelanced as a web designer, so it combines my passion and
-          skills.
+          skills. My experience as a UI/UX designer from 2018 to 2020, where I
+          worked with tools like Photoshop and Figma, helped me gain valuable
+          insights into user-centered design and user interface enhancement.
         </p>
       </div>
 
