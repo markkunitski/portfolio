@@ -163,7 +163,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="image-container mr-6 flex flex-grow flex-col">
+        {/* <div className="image-container mr-6 flex flex-grow flex-col">
           <Image
             className="w-full h-auto rounded-xl grayscale z-10 relative"
             loading="lazy"
@@ -198,7 +198,7 @@ const Projects = () => {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="image-container flex flex-grow flex-col">
           <Image
             className="w-full h-auto rounded-xl grayscale z-10 relative"
