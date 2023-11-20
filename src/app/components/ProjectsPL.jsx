@@ -169,7 +169,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        {/* <div className="image-container mr-6 flex flex-grow flex-col">
+        <div className="image-container mr-6 flex flex-grow flex-col">
           <Image
             className="w-full h-auto rounded-xl grayscale z-10 relative"
             loading="lazy"
@@ -201,13 +201,13 @@ const Projects = () => {
               <a
                 className=" inline-block"
                 target="_blank"
-                href="http://divs.online/"
+               
               >
-                Zobacz projekt &gt;
+                Finished soon &gt;
               </a>
             </div>
           </div>
-        </div> */}
+        </div>
         <div className="image-container flex flex-grow flex-col">
           <Image
             className="w-full h-auto rounded-xl grayscale z-10 relative"
