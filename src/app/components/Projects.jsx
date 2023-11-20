@@ -95,7 +95,7 @@ const Projects = () => {
           ></Image>
           <div className="projects_text flex flex-col flex-1">
             <div className="flex flex-wrap ">
-              <h5 className="mb-2 w-full">NODAUNT</h5>
+              <h5 className="mb-2 w-full">NODAUNT - in progress</h5>
               <div className="badge badge-outline">Next.js</div>
               <div className="badge badge-outline">TypeScript</div>
               <div className="badge badge-outline">REST API</div>
@@ -136,7 +136,7 @@ const Projects = () => {
           ></Image>
           <div className="projects_text flex flex-col flex-1">
             <div className="flex flex-wrap">
-              <h5 className="mb-2 w-full">React Training</h5>
+              <h5 className="mb-2 w-full">React Showcase</h5>
               <div className="badge badge-outline ">React</div>
               <div className="badge badge-outline ">React Router Dom</div>
               <div className="badge badge-outline ">API</div>
@@ -153,6 +153,13 @@ const Projects = () => {
             </div>
 
             <div className="flex justify-end">
+              <a
+                className=" inline-block me-6"
+                target="_blank"
+                href="https://github.com/markkunitski/React-Endgame"
+              >
+                Code &gt;
+              </a>
               <a
                 className=" inline-block"
                 target="_blank"
@@ -188,7 +195,14 @@ const Projects = () => {
               the user experience, showcasing my commitment to improving UI/UX
               and simplifying task management.
             </p>
-            <div className="flex justify-end items-center">
+            <div className="flex justify-end">
+              <a
+                className=" inline-block me-6"
+                target="_blank"
+                href="https://github.com/markkunitski/minibit-OOP_Api_cookies_ajax"
+              >
+                Code &gt;
+              </a>
               <a
                 className=" inline-block"
                 target="_blank"
